@@ -6,12 +6,7 @@ document.getElementById('btn-deposit').addEventListener('click',function(){
 
     // clear the inputfield:
     depositField.value='';
-    //if enter string or NAN
-    if(isNaN(newWithdrawInnertext)){
-        alert('Please provide a number');
-        return;
 
-    }
 
     // get the previous deposit total:
     const depositTotall=document.getElementById('deposit-total');
